@@ -1,0 +1,49 @@
+.item {
+    height: 36rem;
+    min-width: 24rem;
+    padding: 3rem 1rem 3rem 1rem;
+    background: linear-gradient( black, #3b82f6, black); 
+        
+}
+
+.image-item {
+    height: 100%;
+    pointer-events: none;
+    object-fit:contain;
+    
+}
+
+.video-item {
+    height: 100%;
+
+}
+
+.slider-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    background: -o-linear-gradient(3b82f6, black);
+}
+
+.icon-container2 {
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(143, 143, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    display: flex;
+    cursor: grab;
+}
+
+.slider-container {
+    margin: 0 auto;
+    overflow-x: hidden;
+    background: linear-gradient( black, #3b82f6, black); 
+}
