@@ -29,15 +29,15 @@ const Footer = () => {
 
           <div className='h-12 flex justify-center gap-5 '>
 
-            <a className="h-full" href="https://instagram.com/cabinaslove?igshid=NmQ2ZmYxZjA="
+            <a className="h-full hover:scale-95" href="https://instagram.com/cabinaslove?igshid=NmQ2ZmYxZjA="
               target="_blank">
               <img className="h-full rounded" src="./img/icoinstasf.jpg" alt="" />
             </a>
-            <a className="h-full" href="https://www.facebook.com/cabinalove?mibextid=ZbWKwL"
+            <a className="h-full hover:scale-95" href="https://www.facebook.com/cabinalove?mibextid=ZbWKwL"
               target="_blank">
               <img className="h-full rounded" src="./img/icofacesf.jpg" alt="" />
             </a>
-            <a className="h-full" href="https://api.whatsapp.com/send?phone=1150412236"
+            <a className="h-full hover:scale-95" href="https://api.whatsapp.com/send?phone=1150412236"
               target="blank">
               <img className="h-full rounded" src="./img/icowhatsf.jpg" alt="" />
             </a>

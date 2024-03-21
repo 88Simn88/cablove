@@ -13,16 +13,7 @@ const Home = () => {
       <div className='banner'>
         <div className='banner_container'>
 
-          {/*   <div className='buttons-container'>
-            <Link className='bg-lime-500 rounded p-2 m-2 text-white'
-              to='/cabinas'>Cabinas</Link>
-
-            <Link className='bg-lime-500 rounded p-2 m-2 text-white'
-              to='/plataforma360'>Plataforma 360</Link>
-
-            <Link className='bg-lime-500 rounded p-2 m-2 text-white'
-              to='/tunelled'>Tunel Led</Link>
-          </div> */}
+          
 
           <h1 className='text-white font-bold text-4xl absolute -top-40 -left-32 md:left-0'>Cabinas Love</h1>
           <p className='text-white absolute top-40 left-0'>Las mejores cabinas para tus eventos</p>
@@ -60,7 +51,11 @@ const Home = () => {
                 <p className="text-white text-center mb-5">
                  mejor recuerdo de tu evento.
                 </p>
-              <Link to="/fotocabina" className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black">Ver más...</Link>
+              <Link 
+              to="/fotocabina" 
+              className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black hover:scale-95"
+             // onClick={() => window.scroll(0,0)}
+              >Ver más...</Link>
 
             </div>
           </div>
@@ -87,7 +82,11 @@ const Home = () => {
                  personalizados y con calidad HD.
                 </p>
 
-              <Link to="/plataforma360" className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black">Ver más...</Link>
+              <Link 
+              to="/plataforma360" 
+              className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black hover:scale-95"
+             // onClick={() => window.scroll(0,0)}
+              >Ver más...</Link>
 
             </div>
           </div>
@@ -114,11 +113,23 @@ const Home = () => {
                 tus redes sociales.
                 </p>
 
-              <Link to="/tunelled" className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black">Ver más...</Link>
+              <Link 
+              to="/tunelled" 
+              className="text-white font-bold bg-lime-500 p-3 mb-3 rounded shadow-sm shadow-black hover:scale-95"
+              //onClick={() => window.scroll(0,0)}
+              >Ver más...</Link>
 
             </div>
           </div>
         </div>
+
+        <Link 
+        to="/contact" 
+        className='bg-lime-500 rounded self-center mt-10 p-4 cursor-pointer text-white font-bold text-xl shadow-lg shadow-black hover:scale-95'
+        /* onClick={() => window.scroll(0,0)} */
+        >Reserva Ya!</Link>
+
+          
       </div>
     </div>
 

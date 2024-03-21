@@ -79,7 +79,7 @@ const Contact = () => {
             <div className=' h-fit bg-gradient-to-b from-black via-blue-500 to-black flex flex-col pb-10 '>
                 <div className='h-10 mt-12 mb-12 flex m-auto gap-10'>
                     <div className='h-20'>
-                        <img className="h-full" src="./img/logosf.png" alt="" />
+                        <img className="h-full rounded-full shadow-md shadow-white" src="./img/logosf.png" alt="" />
                     </div>
 
                     <div className='flex flex-col'>
